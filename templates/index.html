@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
+    <title>Form Submission</title>
 </head>
 <body>
-    <form>
-        <label for="user-input">Barcode:</label>
-        <input type="text" id="user-input" name="user-input">
+    <h1>Submit Your Input</h1>
+    <form action="/" method="POST">
+        <label for="user_input">Enter something:</label>
+        <input type="text" id="user_input" name="user_input" required>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
-
